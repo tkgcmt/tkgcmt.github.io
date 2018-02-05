@@ -41,10 +41,27 @@ img {
 button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    background-color: #444;
+    color: antiquewhite;
     border: none;
     border-radius: 15px;
     padding: 5px 10px;
     margin: 0 5px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+    color: antiquewhite;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+button:focus {
+    background-color: #aaa;
 }
 
 .poster {
