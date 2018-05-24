@@ -1,0 +1,56 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html {padding: 0;margin: 0;}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 25px;
+  font-size: 16px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Garamond", serif;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Garamond", serif;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "Garamond", serif;
+  font-size: 1.25rem;
+}
+
+nav ul {
+  font-size: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  font-size: 1rem;
+}
+
+section {padding:5px 25px;}
+
+.orange {
+  background: #ff9900;
+  color: white;
+}
+
+.ivory {
+  background: #f5f5f1;
+  color: #333;
+}
+
+.dark3{
+  background: #221f1f;
+  color: white;
+}
