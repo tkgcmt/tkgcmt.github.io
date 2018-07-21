@@ -1,0 +1,38 @@
+.hero {
+    background: url("/assets/img/Espe-hero.jpg") no-repeat right center;
+}
+
+.hero .descr {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.hero .descr h1 {
+    color: navajowhite;
+
+}
+
+.poster {
+    background: #333 url("/assets/img/Aval_Coruja_kid.jpg") no-repeat center;
+    /*    background-color: #333;*/
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.hero .descr p {
+    color: navajowhite;
+}
+
+@media (min-width: 481px) {
+    .hero {
+        background-position: center;
+    }
+    .hero .descr {
+        top: auto;
+        bottom: 10vh;
+        left: 5vw;
+        transform: translate(0, 0);
+    }
+}
